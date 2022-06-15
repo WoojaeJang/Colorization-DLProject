@@ -1,4 +1,4 @@
-# colorization-Keras-PSPNET
+# PSPNET - TensorFlow-keras - RGB
 
 ## 모델 정보
 
