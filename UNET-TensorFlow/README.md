@@ -1,4 +1,4 @@
-# colorization-Keras-UNET-RGB
+# UNET - TensorFlow-keras - RGB
 
 ## 모델 정보
 
