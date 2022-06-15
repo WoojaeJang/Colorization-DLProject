@@ -1,4 +1,4 @@
-# colorization-Pytorch-UNET-RGB
+# UNET - Pytorch - RGB
 
 ## 모델 정보
 
