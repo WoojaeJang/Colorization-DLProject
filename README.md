@@ -28,7 +28,7 @@
 <br/>
 
 ## 🔨 자체 모델 개발
-- [JKSPNET - Pytorch - LAB](./JKSPNET/)
+- [JKSPNET - Pytorch - LAB](./JKPSNET/)
 
 <br/>
 
