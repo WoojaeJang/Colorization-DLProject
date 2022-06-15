@@ -1,7 +1,6 @@
 # UNET - Pytorch - RGB
 
 ## 모델 정보
-
 - 모델명 : UNET
 - 사용 라이브러리 : Pytorch
 - 사용 색상모드 : RGB
@@ -9,9 +8,7 @@
 <br/>
 
 ## 모델 설명
-
 ![UNET](./README_images/UNET.png)
-
 - 이미지가 수축, 확장되는 과정을 도식화 하면 U자 모양이기에 UNET이라는 이름이 붙여짐.
 - 1채널의 흑백 이미지를 입력 받아 컨볼루션, 합성곱을 통해 채널 수를 32, 64, 128, 256 으로 늘려가고 이미지의 크기는 축소시킴.
 - 이후 Upsampling을 통해 이미지의 크기는 확대, 채널 수는 축소시키는 과정에서 같은 크기의 이미지끼리 결합시키는 concatenate을 통해 최대한 많은 특성맵을 학습함.
@@ -20,7 +17,6 @@
 <br/>
 
 ## 모델 구축 code
-
 ```Python
 import torch
 import torch.nn as nn
@@ -93,13 +89,11 @@ class UNET(nn.Module) :
         return x
 
 model_UNET = UNET().to(device)
-
 ```
 
 <br/>
 
 ## 모델 Summary
-
 ```
 ==========================================================================================
 Layer (type:depth-idx)                   Output Shape              Param #
