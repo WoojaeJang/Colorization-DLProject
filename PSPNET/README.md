@@ -1,7 +1,6 @@
 # PSPNET - TensorFlow-keras - RGB
 
 ## 모델 정보
-
 - 모델명 : PSPNET
 - 사용 라이브러리 : TensorFlow-Keras
 - 사용 색상모드 : RGB
@@ -9,9 +8,7 @@
 <br/>
 
 ## 모델 설명
-
-![UNET](./README_images/PSPNET.png)
-
+![PSPNET](./README_images/PSPNET.png)
 - PSPNET은 피라미드 풀링이라는 기법을 사용하는 CNN 모델.
 - 1채널의 흑백 이미지를 입력 받아 초기에 합성곱을 통해 2048개로 채널 수를 늘림.
 - 이후 같은 채널 수의 특성맵을 4개 만들어 이를 각각 합성곱을 통해 512개의 채널 수를 갖는 이미지로 만들어줌.
@@ -20,7 +17,6 @@
 <br/>
 
 ## 모델 구축 code
-
 ```Python
 from tensorflow.keras import models, backend
 from tensorflow.keras.layers import Input, Conv2D, AveragePooling2D, BatchNormalization, Activation, UpSampling2D, Concatenate
@@ -81,7 +77,6 @@ pspnet = PSPNET(data_train.input_shape, data_train.n_ch)
 <br/>
 
 ## 모델 Summary
-
 ```
 Model: "PSPNET_TensorFlow-Keras"
 __________________________________________________________________________________________________
