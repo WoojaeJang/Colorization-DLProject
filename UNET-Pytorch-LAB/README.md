@@ -1,4 +1,4 @@
-# colorization-Pytorch-UNET-LAB
+# UNET - Pytorch - LAB
 
 ## 모델 정보
 
